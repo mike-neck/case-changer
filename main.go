@@ -178,7 +178,7 @@ func main() {
 			_, _ = fmt.Fprintln(os.Stderr, err)
 			os.Exit(1)
 		}
-		fmt.Print(result)
+		fmt.Println(result)
 		current = lineNum
 	}
 	if err := scanner.Err(); err != nil {
